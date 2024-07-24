@@ -1,0 +1,219 @@
+body {
+    background-color: violet;
+}
+
+h1 {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    text-align: center
+}
+
+h2 {
+    background-color: orangered;
+    color: white;
+    text-align: center
+}
+
+
+.personajes {
+    background-color: greenyellow;
+    color: black;
+}
+
+.bordes-redondeados {
+    border-radius: 15px;
+}
+
+
+
+#arnold {
+    font-size: 36px;
+}
+
+
+
+.navegacion {    
+    
+    background-color: #55b955;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.navegacion a {
+    color: white;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    ;
+}
+
+.navegacion ul {
+    list-style-type: none;
+}
+
+
+
+
+.fondo-papel {
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fondos-pantalla-4k_5.jpg?tf=3840x');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+#ver-carrito {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.juego {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.juego img {
+    width: 100%;
+    height: auto;
+}
+
+.juego h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.juego p {
+    margin: 10px 0;
+}
+
+.juego .precio {
+    color: green;
+    font-weight: bold;
+}
+
+.juego .plataformas,
+.juego .tipos {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.juego button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    width: calc(100% - 10px);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cerrar-carrito {
+    background-color: #383838;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#ver-carrito {
+    position: fixed;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#juegos-container{
+    display: flex;
+    flex-wrap: wrap;
+}
